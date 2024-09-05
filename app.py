@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, request
 from flask_scss import Scss
 from flask_sqlalchemy import SQLAlchemy
-from datetime import datetime
+from datetime import datetime 
 #My app
 app = Flask(__name__)
 Scss(app)
